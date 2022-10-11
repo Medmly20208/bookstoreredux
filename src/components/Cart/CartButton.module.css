@@ -19,3 +19,16 @@
   padding: 0.15rem 1.25rem;
   color: #1d1d1d;
 }
+
+
+@media screen and (max-width:900px) {
+  .button{
+    padding: 4px;
+
+  }
+  .badge{
+    padding: 0px;
+   color: #1ad1b9;
+   background-color: #252424;
+  }
+}

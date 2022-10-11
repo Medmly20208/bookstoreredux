@@ -10,11 +10,7 @@ const showCart = createSlice({
     showcart(state) {
       state.show = !state.show;
     },
-    shownotification(state, action) {
-      state.notification.shownotification = true;
-      state.notification.message = action.payload.message;
-      console.log(action.payload.message);
-    },
+
     //clearNotification(state) {
     //state.notification.shownotification = false;
     //},

@@ -6,9 +6,21 @@ const Products = (props) => {
     <section className={classes.products}>
       <h2>Buy your favorite products</h2>
       <ul>
-        <ProductItem title="Test1" price={6} description="description test1!" />
-        <ProductItem title="Test2" price={6} description="description test2!" />
-        <ProductItem title="Test3" price={44} description="description test3" />
+        <ProductItem
+          title="Rich Dad Poor Dad"
+          price={6}
+          description="change your financial life"
+        />
+        <ProductItem
+          title="can't hurt me "
+          price={6}
+          description="develop your discipline"
+        />
+        <ProductItem
+          title="make friends and influence people"
+          price={44}
+          description="take your social life to next level"
+        />
       </ul>
     </section>
   );

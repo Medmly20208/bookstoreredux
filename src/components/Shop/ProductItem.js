@@ -2,6 +2,7 @@ import Card from "../UI/Card";
 import classes from "./ProductItem.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Cartactions } from "../../store/Cartslice";
+
 const ProductItem = (props) => {
   const { title, price, description } = props;
   const addtcart = useDispatch();
