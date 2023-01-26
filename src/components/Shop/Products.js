@@ -11,7 +11,8 @@ const Products = (props) => {
           price={6}
           description="change your financial life"
         />
-        <ProductItem
+        {/*
+          <ProductItem
           title="can't hurt me "
           price={6}
           description="develop your discipline"
@@ -21,6 +22,7 @@ const Products = (props) => {
           price={44}
           description="take your social life to next level"
         />
+          */}
       </ul>
     </section>
   );
